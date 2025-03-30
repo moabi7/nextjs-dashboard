@@ -17,7 +17,8 @@
 
 # misc
 .DS_Store
-*.pem
+*.pemside the app folder
+# and ignore all files inside 
 
 # debug
 npm-debug.log*
@@ -34,3 +35,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# seed
+/seed
